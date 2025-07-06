@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body >  <!-- style="margin: 0vw 10vw;" -->
+    <div id="root">
+        <div id="modal-hook"></div>
+        <div id="backdrop-hook"></div>
+        <header class="header scroll-header">
+            <nav class="nav container">
+            <a href="index.html" class="nav__logo">Portfolio</a>
+            <div class="nav__menu">
+            <ul class="nav__list grid">
+            <li class="nav__item">
+                <a href="#home" class="nav__link active-link">
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link"> 
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> Skills</a></li>
+            <li class="nav__item"><a href="#qualification" class="nav__link">
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> Qualification</a></li>
+            <li class="nav__item"><a href="#portfolio" class="nav__link">
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> Project</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg> Contact</a></li>
+        </ul>
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" class="nav__close" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+        <div class="nav__toggle">
+            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="nav__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+    </nav>
+        </header>
+    <main class="main">
+    <section id="home" class="home section">
+        <div class="home__container container grid">
+            <!-- <div class="image-wrapper">
+                <div class="color-splash"></div>
+                <div class="image-container">
+                <img src="./images/pic.jpg" alt="my picture"> -->
+            <!-- </div> -->
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://github.com/meghagovind"  class="home__social-icon" rel="noreferrer" target="_blank">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" style="fill: currentColor !important;"></path> </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/meghagovind/" class="home__social-icon"rel="noreferrer"  target="_blank">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="fill: currentColor !important;">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" ></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <div class="home__img"> 
+                        
+                    </div>
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">
+                    Sai Meghana 
+                    <svg fill="#7643DF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45px" height="60px" marginLeft="10px" viewBox="0 0 281.983 281.983" xml:space="preserve" stroke="#7643DF" style="fill: rgb(118, 67, 223);"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" ></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M173.031,29.851c-58.7-7.3-140.1,2.5-165.4,65.9c-10.6,26.4-12.9,63.9,11.2,84.9c28.3,24.6,65.6,19.7,100.6,21.1l0,0 c0.8,16.101,5.6,33.2,10.5,48.2c1.7,5.3,7.9,5.5,11,1.4c6.201-8.2,8.9-18.801,11.5-28.601c1.3-5,4.899-12.8,4.6-18.7 c0.7,0,1.3,0,2.101-0.3c47-17.3,114.199-0.399,122.199-66.5C289.031,74.351,227.132,36.55,173.031,29.851z M263.531,157.45 c-14.7,33.2-78.5,23-107.7,34.1c-3.1,1.2-4.3,4-4.199,6.601c-7.301,1.3-8.101,10.399-9.601,16.5c-1.4,5.5-2.7,11.3-4.6,16.899 c-3.2-12.8-5.9-25.8-11.1-37.6c-1.2-2.7-4.5-2.2-6.1-0.3c-20.3-4.7-40-5-60.6-7.9c-61.1-8.399-52.1-75.7-23.7-109.8 c32.5-39,98.5-40.1,144.201-32.4C232.031,52.351,289.632,98.45,263.531,157.45z"></path> <path d="M90.331,91.25c-1.6-4.3-7.4-5.6-10-1.3c-5,8.3-3.6,21.5-4.1,30.8c-0.3,5.1-0.7,10.6-1,16.1c-5.1,0.8-10.1,1.2-15.3,1.6 c0-4.1-0.1-8.2-0.1-12.3c0-6.7,0.3-13.5,0.6-20.2c0.1-2.9,0.4-5.8,0.9-8.7c0.8-4.3,1.8-3.1-0.9-1.8c3.4-1.7,3.6-7.6,0-9.3 c-21.3-9.6-12.4,67.3-11.7,77c0.5,7,10.5,7,10.8,0c0.3-5.101,0.3-10.101,0.3-15.2c5,0.3,10.1,0.4,15.2,0.2 c0.2,5.5,0.9,10.8,2.5,15.7c0.6,1.899,2.2,3.899,4.3,4.3c2.1,0.399,4.4,0.3,6.1-1c1.2-0.9,1.3-2.2,0.8-3.101 c1.1-3.899,0.3-7.8,0.1-12.199c-0.2-8.5,0.1-17.1,0.5-25.6C90.131,115.75,94.131,101.25,90.331,91.25z"></path> <path d="M125.131,92.25c-0.1-0.2-0.3-0.4-0.4-0.6c-1.7-2.3-3.6-2.9-6.3-2.6c-3.2,0.4-6.5,0.5-9.8,0.7c-1.6-0.9-3.9-0.4-4.7,1.4 c-1.5,1.3-1.8,3.5-1.1,5.2c-3.6,22.5-3.9,46.1-4.1,68.699c0,3.7,2.9,5.9,6.2,6.2c8.5,0.9,19.8-0.7,19.1-11.7 c-0.2-3.399-3.7-5.8-6.9-4c-2.4,1.4-4,2.4-5.8,2.9c0.1-4,0.2-8,0.4-12c1.4,0.2,2.8,0.3,4.1,0.5c2.8,0.4,4.7-0.3,6.4-2.6l0.1-0.101 c1-1.3,1-4.1,0-5.399l-0.1-0.1c-1.7-2.2-3.6-3-6.4-2.6c-1.2,0.2-2.5,0.3-3.8,0.4c0.4-12.5,0.5-25-0.9-37.2 c2.4,0.1,4.9,0.2,7.2,0.6c2.7,0.4,4.7-0.3,6.3-2.6c0.1-0.2,0.3-0.4,0.4-0.6C125.931,95.65,125.931,93.45,125.131,92.25z"></path> <path d="M155.331,154.25c-2.6-0.8-5.3-1.2-8-1.7c-0.399-19.299-1.699-38.899-4-58c-0.6-5.2-7.5-5.2-8.1,0 c-2.3,20.9-0.6,42.4-0.6,63.3c0,2.899,2,5.399,4.7,6.199c5.4,1.5,10.4,2.7,15.9,1.101 C160.831,163.55,160.632,155.851,155.331,154.25z"></path> <path d="M183.632,158.55c-1.301,0.601-2.4,1.4-3.5,1.9c0.1-21.8,0.699-43.9-4.5-65.2c-1-4.2-7.601-3.3-7.5,1 c0.699,23.6-0.4,47-0.801,70.6c0,3,2,5.199,4.7,6.199c8,3,15.5,1.301,19.101-7C193.331,161.05,188.932,156.05,183.632,158.55z" ></path> <path d="M220.731,98.65c-3.9-5.3-12-2-11.8,3.2c-0.2,0-0.3,0-0.601,0c-2.8-0.1-4.1,2.4-5.3,4.4c-3.899,6.7-5.8,15.2-7.6,22.6 c-2.9,11.9-6.3,31.8,6.5,39.199c14.8,8.601,24.6-10.8,26.2-22.1C230.231,131.95,229.531,110.55,220.731,98.65z M214.831,149.05 c-0.6,2.5-4.699,11.4-7.8,6.5c-5-8,0.101-24.199,2-32.5c1-4.3,2.101-8.6,3.3-12.9c0-0.1,0-0.2,0.101-0.3c2.8,7,3.5,15.5,3.8,22.5 C216.531,137.851,216.132,143.55,214.831,149.05z" ></path> </g> </g> </g></svg>
+                    </h1>
+                    <h2 style="color: rgb(118, 67, 223);"><span id="role">Full Stack Developer</span></h2>
+                    <p class="home__description">
+                    <br>
+                    <br>
+                    I'm a computer science graduate student with 1+ years of hands-on experience, 
+                    fueled by a love for coding. Currently on the lookout for exciting opportunities in Web Developement, 
+                    Fullstack, Data Science, and Mobile Application Development. I'm eager to bring my skills and enthusiasm to a dynamic team.</p>
+                    <a href="#contact" class="button button--flex">
+                    <label>Get in touch</label>
+                    <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z" fill="var(--container-color)"></path><path d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z" fill="var(--container-color)"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section class="about section" id="about">
+        <h1 class="section__title" style="font-size: 49px;">About</h1>
+        <br>
+        <div class="about__container container grid">
+            <img src="./images/photo.jpg" alt="about" class="about__img">
+            <div class="about__data">
+                <div class="about__info grid">
+                    <div class="about__box">
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="about__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        <h3 class="about__title">Coding Experience</h3>
+                        <br>
+                        <span class="about__subtitle">2 Years</span>
+                    </div>
+                    <div class="about__box">
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="about__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <h3 class="about__title">Certifications</h3>
+                        <br>
+                        <button class="about__subtitle" style="background-color: white; color: rgb(118, 67, 223);">
+                            <u>View Certifications</u>
+                        </button>
+                    </div>
+                    <div class="about__box">
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="about__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                        <h3 class="about__title">Paper Publications</h3>
+                        <br>
+                        <button class="about__subtitle" style="background-color: white; color: rgb(118, 67, 223);">
+                            <a href="https://ijrpr.com/uploads/V4ISSUE4/IJRPR11907.pdf" style="color: rgb(118, 67, 223);"><u>View Papers</u></a>
+                        </button>
+                    </div>
+                </div>
+                <p class="about__description">As a child, I was captivated by movies featuring coding wizards, finding their ability to interact with computers utterly mesmerizing- a unique connection between myself and the machine. Dreaming of becoming a software developer, I yearned to bring my visions to life through lines of code. As I begin to share my journey, I invite you to get to know me better. Welcome to my portfolio!</p>
+                <a download href="./images/guthulasaimeghana_resume.docx" class="button button--flex">"Download Resume
+                    <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15.25 22.7502H9.25C3.82 22.7502 1.5 20.4302 1.5 15.0002V9.00024C1.5 3.57024 3.82 1.25024 9.25 1.25024H14.25C14.66 1.25024 15 1.59024 15 2.00024C15 2.41024 14.66 2.75024 14.25 2.75024H9.25C4.64 2.75024 3 4.39024 3 9.00024V15.0002C3 19.6102 4.64 21.2502 9.25 21.2502H15.25C19.86 21.2502 21.5 19.6102 21.5 15.0002V10.0002C21.5 9.59024 21.84 9.25024 22.25 9.25024C22.66 9.25024 23 9.59024 23 10.0002V15.0002C23 20.4302 20.68 22.7502 15.25 22.7502Z" fill="var(--container-color)"></path><path d="M22.25 10.7502H18.25C14.83 10.7502 13.5 9.42023 13.5 6.00023V2.00023C13.5 1.70023 13.68 1.42023 13.96 1.31023C14.24 1.19023 14.56 1.26023 14.78 1.47023L22.78 9.47023C22.99 9.68023 23.06 10.0102 22.94 10.2902C22.82 10.5702 22.55 10.7502 22.25 10.7502ZM15 3.81023V6.00023C15 8.58023 15.67 9.25023 18.25 9.25023H20.44L15 3.81023Z" fill="var(--container-color)"></path><path d="M13.25 13.7502H7.25C6.84 13.7502 6.5 13.4102 6.5 13.0002C6.5 12.5902 6.84 12.2502 7.25 12.2502H13.25C13.66 12.2502 14 12.5902 14 13.0002C14 13.4102 13.66 13.7502 13.25 13.7502Z" fill="var(--container-color)"></path><path d="M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z" fill="var(--container-color)"></path></svg>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="skills section" id="skills">
+        <h1 class="section__title" style="font-weight: bold;">
+            Skills
+        </h1>
+        <br>
+        <br>
+        <div class="skills__container container grid">
+            <div class="skills__content">
+                <h3 class="skills__title">Programming Languages</h3>
+                <div class="skills__box">
+                <div class="skills__group">
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">Java</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">Python</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">C++</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">Kotlin</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__group">
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">Java Script</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">C</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">HTML 5</h3>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                        <div>
+                            <h3 class="skills__name">CSS 3</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            <div class="skills__content">
+                <h3 class="skills__title">Frame Works</h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">React Js</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">SprintBoot</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">Angular</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">React Native</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Express.js</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">Django</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">Flutter</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Vue.js</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__content">
+                <h3 class="skills__title">DataBase Technologies</h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Mango DB</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">MY SQL</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                 <h3 class="skills__name">FireBase</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Postgre SQL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">SQLite</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Fire Store</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">No SQL</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">AWS</h3>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__content">
+                <h3 class="skills__title">cloud/devops</h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">AWS</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Docker </h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Vue.js</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Vue.js</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">AWS Services</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">AWS Architecture</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">Jenkins</h3>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <svg class="data"  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>
+                            <div>
+                                <h3 class="skills__name">GitLab CI/CD</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+    <section class="qualification section " id="qualification">
+        <h1 class="section__title">Qualification</h1>
+        <span class="section__subtitle">
+            My Journey
+        </span>
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button button--flex qualification__active">
+                    <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>
+                    Education
+                </div>
+                <div class="qualification__button button--flex">
+                    <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    Experience
+                </div>
+            </div>
+            <div class="qualification__sections">
+                <div class="qualification__content qualification__content-active">
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Saint Louis University</h3>
+                            <span class="qualification__data">Masters in Information Systems</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                Auguest 2023 - May 2025
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Aditya Engineering College</h3>
+                            <span class="qualification__subtitle">Bachelors in Information Technology</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>                              
+                                  June 2019 - May 2023
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Vidhya Vikas</h3>
+                            <span class="qualification__subtitle">Senior High School</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                June 2016 - Feb 2019
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualification__content">
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Global Graduate Assistant </h3>
+                            <span class="qualification__subtitle">Saint Louis University</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                Apr 2022 - Jun 2022
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Software Engineer </h3>
+                            <span class="qualification__subtitle">Nerd Pine</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                Nov 2023 - Jan 2024
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    <div class="qualification__data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Power BI Engineer Intern</h3>
+                            <span class="qualification__subtitle">Nerd Pine</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon fill" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                Jul 2022 - May 2023
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Research Assistant</h3>
+                            <span class="qualification__subtitle">Saint Louis Uni</span>
+                            <div class="qualification__calendar">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="qualification__calendar-icon fill" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                "aug 2023 - may 2025"
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Recent Projects</span>
+        <div class="project">
+            <div class="project__filters">
+                <span class="project-active project-item">All</span>
+                <span class="project-item">Web Development</span>
+                <span class="project-item">Data Analysis</span>
+                <span class="project-item">Artifical Intelelesions</span>
+                <span class="project-item">Machine Learning</span>
+            </div>
+            <div class="project__container container grid">
+                <div class="project__card" data-category="web-dev">
+                    <img class="project__img"  src="./images/p-1.png" alt="img">
+                    <h3 class="project__title">DailyTasks – Save & Track Your To-Dos</h3>
+                    <p class="project__semititle">Developed a responsive To-Do List web application that allows users to add, cross out, and delete tasks. Implemented persistent state management using the browser's LocalStorage, ensuring that all tasks and their status remain intact even after refreshing the browser. Designed for intuitive task interaction with dynamic DOM updates and user-friendly styling. This project showcases practical front-end development skills including event handling, state persistence, and UI/UX design.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://meghagovind.github.io/TODO_List/" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="data-analysis">
+                    <img class="project__img" src="./images/p-2.png" alt="img">
+                    <h3 class="project__title">Recruitment Funnel Dashboard</h3>
+                    <p class="project__semititle">The Recruitment Pipeline Analytics Dashboard is a Power BI-based solution designed to streamline and optimize the hiring process by addressing key challenges such as inefficient sourcing, candidate misalignment, and delayed hiring decisions. By integrating Blockchain technology, the system ensures secure, tamper-proof recruitment data, enhancing trust and data integrity. The interactive dashboard provides real-time analytics on recruitment funnel performance, time-to-hire, candidate evaluation, sourcing effectiveness, and location-based trends. It also features predictive scenario modeling and automated alerts to support proactive, data-driven hiring strategies—ultimately reducing time-to-hire and improving overall recruitment outcomes.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/meghagovind/Recruitment-Pipeline-Analytics-Dashboard" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="data-analysis">
+                    <img class="project__img" src="./images/p-3.png" alt="img">
+                    <h3 class="project__title">City Weather Tracker</h3>
+                    <p class="project__semititle">Built a dynamic weather application that fetches and displays real-time weather data including temperature, humidity, and windspeed based on user-inputted city names. Utilized the OpenWeatherMap API to retrieve live weather metrics and implemented error handling for invalid or misspelled city names. Designed a clean and responsive UI for a seamless user experience. The project demonstrates API integration, user input handling, and real-time data visualization.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://meghagovind.github.io/my_first_project/" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ai">
+                    <img src="#" alt="img">
+                    <h3 class="project__title">Project-4</h3>
+                    <p class="project__semititle">This PERN stack project facilitates library management with distinct roles: students can rate, search, sort, and check out books, while librarians manage functionality including adding, deleting, updating, filing, and processing book returns.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/ShivaniNeharkar/BookBuddy-PERN-stack" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ai">
+                    <img src="#" alt="img">
+                    <h3 class="project__title">Project-5</h3>
+                    <p class="project__semititle">This PERN stack project facilitates library management with distinct roles: students can rate, search, sort, and check out books, while librarians manage functionality including adding, deleting, updating, filing, and processing book returns.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/ShivaniNeharkar/BookBuddy-PERN-stack" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ai">
+                    <img src="#" alt="img">
+                    <h3 class="project__title">Project-6</h3>
+                    <p class="project__semititle">This PERN stack project facilitates library management with distinct roles: students can rate, search, sort, and check out books, while librarians manage functionality including adding, deleting, updating, filing, and processing book returns.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/ShivaniNeharkar/BookBuddy-PERN-stack" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ml">
+                    <img src="#" alt="img">
+                    <h3 class="project__title">Project-7</h3>
+                    <p class="project__semititle">This PERN stack project facilitates library management with distinct roles: students can rate, search, sort, and check out books, while librarians manage functionality including adding, deleting, updating, filing, and processing book returns.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/ShivaniNeharkar/BookBuddy-PERN-stack" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ml">
+                    <img class="project__img" src="./images/p-8.png" alt="img">
+                    <h3 class="project__title">Cloud Mart</h3>
+                    <p class="project__semititle">Developed a multicloud application during The Cloud Bootcamp DevOps & AI Challenge using AWS (EC2, EKS), Azure, GCP, Docker, and Kubernetes. Deployed backend and frontend services, configured DynamoDB, and tested full-stack functionality. Built AI Assistants using OpenAI and Amazon Bedrock for customer support and engagement. Integrated Sonnet 3 LLM for advanced sentiment analysis to automatically evaluate customer conversations and trigger escalations via CloudMart Ticket Director. Gained hands-on experience in deploying scalable, intelligent cloud-native applications.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/meghagovind/cloudmart" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+                <div class="project__card" data-category="ml">
+                    <img src="#" alt="img">
+                    <h3 class="project__title">Project-9</h3>
+                    <p class="project__semititle">This PERN stack project facilitates library management with distinct roles: students can rate, search, sort, and check out books, while librarians manage functionality including adding, deleting, updating, filing, and processing book returns.</p>
+                    <div style="display: inline-flex;">
+                        <a href="https://github.com/ShivaniNeharkar/BookBuddy-PERN-stack" rel="noreferrer" target="_blank" class="project__button" style="padding: 13px;">Code <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="project__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: blue;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Lets Connect</h2>
+        <span class="section__subtitle">Contact Me</span>
+        <div class="contact__container container grid">
+            <div class="contact__content">
+                <h3 class="contact__title">Get in Touch</h3>
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="contact__card-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">guthulasaimeghana@gmail.com</span>
+                        <a href="mailto:guthulasaimeghana@gmail.com" class="contact__button">"Write"
+                            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="contact__button-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__content">
+                <h3 class="contact__title">Type Messege here</h3>
+                <form class="contact__form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Name</label>
+                        <input type="text" name="name" class="contact__form-input" placeholder="Type your name">        
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Email</label>
+                        <input id="from" type="email" name="email" class="contact__form-input" placeholder="Type your email">
+                    </div>
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag">Message</label>
+                        <textarea name="message" cols="30" rows="10" class="contact__form-input" placeholder="Message box"></textarea>
+                    </div>
+                    <button href="#contact" class="button button--flex">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title" style="font-size: 30px;">Sai Meghana</h1>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#qualification" class="footer__link">Qualification</a>
+                </li>
+            </ul>
+            <div class="footer__social">
+                <a href="https://github.com/ShivaniNeharkar" class="home__social-icon" target="_blank" rel="noreferrer" style="color: white;"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="fill: currentColor;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                <a href="https://in.linkedin.com/in/shivani-neharkar-b762b719b" class="home__social-icon" target="_blank" rel="noreferrer" style="color: white;"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="fill: currentColor;"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+
+            </div>
+            <span class="footer__copy"></span>
+        </div>
+    </footer>
+    <a href="#home" class="scrollup show-scroll"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="scrollup__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12"></path></svg></a>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
