@@ -66,54 +66,66 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-  // Replace with your actual MailerSend API key
-  const API_KEY = "mlsn.e255c88f97faa24bcd9f21a1176e9bb2b12b1dc60d82370ca224bc312fc76a87";
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector(".nav__toggle");
+  const navList = document.querySelector(".nav__list");
 
-  document.querySelector(".contact__form").addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    // Get form values
-    const name = this.elements["name"].value;
-    const email = this.elements["email"].value;
-    const message = this.elements["message"].value;
-
-    try {
-      const response = await fetch("https://api.mailersend.com/v1/email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${API_KEY}`
-        },
-        body: JSON.stringify({
-          from: {
-            email: "hello@mailersend.com",
-            name: "Your Portfolio"
-          },
-          to: [
-            {
-              email: "meghanas.works@gmail.com", // <-- REPLACE with your receiving email
-              name: "Sai Meghana"
-            }
-          ],
-          subject: `New Message from ${name}`,
-          text: message,
-          html: `<p><strong>Name:</strong> ${name}</p>
-                 <p><strong>Email:</strong> ${email}</p>
-                 <p><strong>Message:</strong> ${message}</p>`,
-        })
-      });
-
-      if (response.ok) {
-        alert("✅ Message sent successfully!");
-        this.reset(); // Clear form
-      } else {
-        const error = await response.json();
-        console.error("❌ Failed:", error);
-        alert("❌ Failed to send message.");
-      }
-    } catch (error) {
-      console.error("❌ Error:", error);
-      alert("❌ Something went wrong.");
-    }
+  toggle.addEventListener("click", () => {
+    navList.classList.toggle("active");
   });
+});
+
+
+
+
+  // // Replace with your actual MailerSend API key
+  // const API_KEY = "mlsn.e255c88f97faa24bcd9f21a1176e9bb2b12b1dc60d82370ca224bc312fc76a87";
+
+  // document.querySelector(".contact__form").addEventListener("submit", async function (e) {
+  //   e.preventDefault();
+
+  //   // Get form values
+  //   const name = this.elements["name"].value;
+  //   const email = this.elements["email"].value;
+  //   const message = this.elements["message"].value;
+
+  //   try {
+  //     const response = await fetch("https://api.mailersend.com/v1/email", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         "Authorization": `Bearer ${API_KEY}`
+  //       },
+  //       body: JSON.stringify({
+  //         from: {
+  //           email: "hello@mailersend.com",
+  //           name: "Your Portfolio"
+  //         },
+  //         to: [
+  //           {
+  //             email: "meghanas.works@gmail.com", // <-- REPLACE with your receiving email
+  //             name: "Sai Meghana"
+  //           }
+  //         ],
+  //         subject: `New Message from ${name}`,
+  //         text: message,
+  //         html: `<p><strong>Name:</strong> ${name}</p>
+  //                <p><strong>Email:</strong> ${email}</p>
+  //                <p><strong>Message:</strong> ${message}</p>`,
+  //       })
+  //     });
+
+  //     if (response.ok) {
+  //       alert("✅ Message sent successfully!");
+  //       this.reset(); // Clear form
+  //     } else {
+  //       const error = await response.json();
+  //       console.error("❌ Failed:", error);
+  //       alert("❌ Failed to send message.");
+  //     }
+  //   } catch (error) {
+  //     console.error("❌ Error:", error);
+  //     alert("❌ Something went wrong.");
+  //   }
+  // });
 
