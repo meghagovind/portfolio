@@ -1599,3 +1599,68 @@ a {
     resize: none;
     padding: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .qualification__sections {
+    display: block;
+  }
+
+  .qualification__data {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: left;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .qualification__data > div:nth-child(2) {
+    order: -1; /* Move rounder and line to the top */
+  }
+
+  .qualification__data > div:nth-child(2) .qualification__rounder,
+  .qualification__data > div:nth-child(2) .qualification__line {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .qualification__data > div:nth-child(3),
+  .qualification__data > div:nth-child(1) {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1.5rem;
+  }
+
+  .qualification__rounder {
+    top: 0;
+    z-index: 1;
+  }
+
+  .qualification__line {
+    top: 13px;
+    height: calc(100% - 13px);
+    width: 2px;
+    z-index: 0;
+  }
+
+  .qualification__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+  }
+
+  .qualification__subtitle,
+  .qualification__calendar {
+    font-size: var(--small-font-size);
+  }
+
+  .qualification__calendar {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+}
+

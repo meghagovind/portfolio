@@ -1,5 +1,5 @@
 
-const roles = ["Web Developer", "UI/UX Designer", "Software Engineer","Data Analyst"];
+const roles = ["Data Engineer", "Data Analyst", "Business Intelligence"];
 let roleIndex = 0;
 const roleElement = document.getElementById("role");
 
@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const categoryMap = {
     "All": "all",
-    "Web Development": "web-dev",
-    "Data Analysis": "data-analysis",
-    "Artifical Intelelesions": "ai",
-    "Machine Learning": "ml"
+    "Data Engineer": "Data Engineer",
+    "Data Analysis": "Data Analysis",
+    "Artifical Intelelesions": "Gen AI",
+    "Machine Learning": "ML"
   };
 
   filterItems.forEach(item => {
