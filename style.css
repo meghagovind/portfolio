@@ -510,7 +510,7 @@ h1 {
 .about__img {
     border-radius: 1.5rem;
     justify-self: center;
-    width: 320px;
+    width: 350px;
 }
 
 img{
@@ -794,7 +794,7 @@ svg {
 
 .qualification__subtitle {
     display: inline-block;
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .qualification__rounder {
@@ -1013,7 +1013,7 @@ svg {
 .footer__title {
     margin-bottom: var(--mb-2);
     text-align: center;
-    padding-left: 3.4vw;
+    padding-left: 2rem;
 }
 
 .footer__link, .footer__title {
@@ -1105,6 +1105,9 @@ a {
 
   .nav__list.active {
     display: flex;
+  }
+  .section{
+    padding: 4rem 0 1rem;
   }
 }
 
@@ -1218,6 +1221,14 @@ a {
   }
 }
 
+.about__title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: var(--mb-1);
+    margin-bottom: var(--mb-1);
+    text-align: center;
+    
+}
 @media screen and (max-width: 768px) {
   .about__container {
     grid-template-columns: 1fr;
@@ -1250,13 +1261,21 @@ a {
     margin-top: 1.5rem;
   }
 }
+.margin-left-18{
+    margin-left: 18rem;
+}
 @media screen and (max-width: 768px) {
   .about__info {
     display: flex;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
     padding-bottom: 1rem;
     scroll-snap-type: x mandatory;
+  }
+  .home__container{
+    background-image: none;
   }
 
   .about__box {
@@ -1287,25 +1306,40 @@ a {
 .about__info::-webkit-scrollbar {
   display: none;
 }
+.margin-left-15{
+    margin-left: 15rem;
+}
 
 /* ✅ Responsive for screens below 768px */
 @media screen and (max-width: 768px) {
   .qualification__data {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr;
     text-align: left;
     padding-left: 1.5rem;
-    position: relative;
+    position: relative; */
+    display: flex;
+    max-width: fit-content;
   }
 
-  .qualification__data > div:nth-child(2) {
+  .margin-left-18 {
+    margin-left: 0;
+  }
+  .margin-left-15 {
+    margin-left: 0;
+  }
+  .education_section > div:nth-child(2),
+  .experience_section > div:nth-child(1)
+  .experience_section > div:nth-child(3) {
     display: flex;
     justify-content: flex-start;
     margin: 0.5rem 0;
   }
 
-  .qualification__data > div:nth-child(1),
-  .qualification__data > div:nth-child(3) {
-    padding-left: 2rem;
+  .education_section > div:nth-child(1),
+  .education_section > div:nth-child(3),
+  .experience_section > div:nth-child(2) {
+    /* padding-left: 2rem; */
+    flex-direction: row-reverse;
   }
 
   .qualification__line {
@@ -1337,8 +1371,10 @@ a {
 /* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .project__container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        /* grid-template-columns: repeat(2, 1fr);
+        gap: 2rem; */
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .project__img {
@@ -1479,7 +1515,8 @@ a {
 
     .contact__card {
         padding: 1.25rem;
-        width: 100%;
+        width: 50vw;
+        margin-left: 19.5vw;
     }
 
     .contact__form-input {
@@ -1599,68 +1636,5 @@ a {
     resize: none;
     padding: 1.5rem;
 }
-
-@media screen and (max-width: 768px) {
-  .qualification__sections {
-    display: block;
-  }
-
-  .qualification__data {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: left;
-    position: relative;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .qualification__data > div:nth-child(2) {
-    order: -1; /* Move rounder and line to the top */
-  }
-
-  .qualification__data > div:nth-child(2) .qualification__rounder,
-  .qualification__data > div:nth-child(2) .qualification__line {
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-  }
-
-  .qualification__data > div:nth-child(3),
-  .qualification__data > div:nth-child(1) {
-    width: 100%;
-    max-width: 300px;
-    margin-top: 1.5rem;
-  }
-
-  .qualification__rounder {
-    top: 0;
-    z-index: 1;
-  }
-
-  .qualification__line {
-    top: 13px;
-    height: calc(100% - 13px);
-    width: 2px;
-    z-index: 0;
-  }
-
-  .qualification__title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-  }
-
-  .qualification__subtitle,
-  .qualification__calendar {
-    font-size: var(--small-font-size);
-  }
-
-  .qualification__calendar {
-    margin-top: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-  }
-}
-
+style.css
+Displaying style.css. 
